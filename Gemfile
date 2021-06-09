@@ -3,7 +3,7 @@ ruby                  ">=2.6.7"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 gem 'rails',          '6.1.3.2'
-
+gem 'crypt_keeper',   '2.2'
 gem 'bootstrap-sass', '3.4.1'
 gem 'puma',           '5.3.1'
 gem 'sass-rails',     '6.0.0'
