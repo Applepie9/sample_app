@@ -20,7 +20,7 @@ class MicropostsController < ApplicationController
       redirect_to root_url
     else
       redirect_back(fallback_location: root_url)
-    end 
+    end
   end
 
     private
